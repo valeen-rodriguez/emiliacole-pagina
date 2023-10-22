@@ -1,0 +1,128 @@
+#body_portada {
+    padding: 0;
+    margin: 0;
+}
+
+.foto_portada {
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    padding: 0;
+}
+
+.barra_transparente{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.barra_tarea ul {
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    top: 4.5%;
+    right: 0;
+    display: flex;
+}
+
+.barra_tarea ul li {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#iconos_tarea ul {
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    top: 12%;
+    right: 0;
+    display: flex;
+}
+
+#iconos_tarea ul li {
+    margin-left: 2.5px;
+    padding: 2px;
+}
+
+.musica_titulo{
+    margin-top: 100px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.musica_links{
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+#lista_album ul{
+    margin-top: -10px;
+    list-style-type: none;
+}
+
+#lista_album il{
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.playlist_foto{
+    margin-left: 10px;
+}
+
+.primera_cancion{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#canciones_listas ul{
+    list-style-type: none;
+}
+
+#canciones_listas ul li{
+    margin-right: -50px;
+}
+
+#canciones_listas li{
+    font-family: "Poppins", sans-serif;
+    margin-right: -50px;
+    padding: 0;
+}
+
+.segunda_cancion{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.tercera_cancion{
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.video1{
+    margin-left: 10px;
+}
+
+.video2{
+    margin-left: 10px;
+}
+
+#go_top{
+    margin-left: 30px;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+}

@@ -1,0 +1,58 @@
+section {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.opciones_home{
+    margin: 10px 0;
+}
+
+.opciones_home ul{
+    list-style-type: none;
+}
+
+.opciones_home ul li{
+    margin: 10px 0%;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+#redes_home li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#emilia_cole{
+    position: relative;
+    padding: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.imagen_fondo{
+    background-image: url(/img/emilia_home.jpg);
+    background-size: contain;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    padding: 0;
+    float: right;
+    height: 0%;
+    width: 60%;
+}
+
+
+.titulo{
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 0;
+    background-color: rgba(100%, 100%, 100%, 0.5);
+    width: 100%;
+    padding: 10px;
+}

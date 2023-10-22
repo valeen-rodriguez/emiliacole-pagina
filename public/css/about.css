@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about_class{
+    position: relative;
+    padding: 10px;
+}
+
+.fotografia_fondo{
+    background-image: url(/img/emilia-about.jpg);
+    background-size: contain;
+    margin-left: 30%;
+    width: 70%;
+    padding: 0;
+}
+
+.transparencia{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.tareas_barra ul {
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    top: 4.5%;
+    right: 0;
+    display: flex;
+}
+
+.tareas_barra ul li {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+#tareas_iconos ul {
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    top: 12%;
+    right: 0;
+    display: flex;
+}
+
+#tareas_iconos ul li {
+    margin-left: 2.5px;
+    padding: 2px;
+}
+
+.about_emilia {
+    font-family: "Poppins", sans-serif;
+    margin-top: -500px;
+    font-size: 25px;
+}
+
+.citas_about {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5%;
+    color: darkcyan;
+}
+
+.cita_about {
+    font-family: "Arial", sans-serif;
+    margin-top: 5%;
+    color: darkcyan;
+}
